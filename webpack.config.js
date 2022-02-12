@@ -41,11 +41,11 @@ module.exports = {
          {
             test: /\.s[ac]ss$/,
             use: [
-               'style-loader',
-               'css-loader',
-               'sass-loader',
+              'style-loader',
+              'css-loader',
+              'sass-loader'
             ]
-         }
+          }
       ]
    },
    plugins: [
